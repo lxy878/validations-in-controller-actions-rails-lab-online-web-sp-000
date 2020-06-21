@@ -1,6 +1,6 @@
 class CategoryValidator
   def validate(record)
-    unless "Fiction" or "Non-Fiction"
+    unless record.name="Fiction" || record.name="Non-Fiction"
 
     end
   end
