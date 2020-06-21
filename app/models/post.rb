@@ -1,5 +1,6 @@
 class Post < ActiveRecord::Base
   validates :title, presence: true
   validates :content, length: [minimum: 100]
-  include Activerecord::
+  include ActiveRecord::Validations
+  
 end
