@@ -1,5 +1,5 @@
 class CategoryValidator
-  def validates
+  def validate(record)
 
   end
 end
