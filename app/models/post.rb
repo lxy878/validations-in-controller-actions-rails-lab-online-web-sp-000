@@ -1,4 +1,4 @@
 class Post < ActiveRecord::Base
-  include ActiveModel::validations
+  include ActiveModel::Validations
   validates_with Validator
 end
